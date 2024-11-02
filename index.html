@@ -116,6 +116,11 @@
             document.querySelector(".weather").style.display="block";
             checkWeather(searchBox.value);
         })
+         searchBtn.addEventListener("keydown", ()=>{
+             if (event.key === "Enter") {
+            document.querySelector(".weather").style.display="block";
+            checkWeather(searchBox.value);}
+        })
     </script>
 </body>
 </html>
