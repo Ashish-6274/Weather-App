@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -116,7 +116,7 @@
             document.querySelector(".weather").style.display="block";
             checkWeather(searchBox.value);
         })
-         searchBtn.addEventListener("keydown", ()=>{
+         searchBox.addEventListener("keydown", ()=>{
              if (event.key === "Enter") {
             document.querySelector(".weather").style.display="block";
             checkWeather(searchBox.value);}
